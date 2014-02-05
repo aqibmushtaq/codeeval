@@ -3,6 +3,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * https://www.codeeval.com/public_sc/6/
+ */
 public class LongestCommonSequence {
 
     private static Node<Character> buildGraph (String str) {
